@@ -122,7 +122,16 @@ Key Results:
 
 * Metric: RMSE was again chosen for its effectiveness in penalizing large errors and facilitating fair comparison. This model is critical for estimating the greenhouse gas emissions associated with Cisco’s products.
 
+Summary
 
+| Task              | Model                    | Accuracy/Score | F1 / RMSE | Metric        |
+| ----------------- | ------------------------ | -------------- | --------- | ------------- |
+| Classification    | Dummy (majority class)   | 0.45           | 0.62      | Accuracy / F1 |
+| Classification    | Gradient Boosting (best) | 0.94           | 0.94      | Accuracy / F1 |
+| Weight Prediction | Dummy                    | –              | 4.78      | RMSE          |
+| Weight Prediction | Random Forest (best)     | –              | 1.93      | RMSE          |
+| Power Prediction  | Dummy                    | –              | 241.43    | RMSE          |
+| Power Prediction  | Random Forest (best)     | –              | 116.5     | RMSE          |
 
 Conclusion
 
