@@ -1,0 +1,6 @@
+The following warning was given in the notebook:
+
+/opt/anaconda3/lib/python3.13/site-packages/sklearn/preprocessing/_encoders.py:246: UserWarning: Found unknown categories in columns [1] during transform. These unknown categories will be encoded as all zeros
+  warnings.warn(
+
+Multiple attempts were made to suppress the warning, but none were successful, therefore the warning are still present.
