@@ -28,9 +28,9 @@ Impact: This project establishes a robust, data-driven framework for estimating 
 
 1. Problem Statement & Goal
 
-Problem: Power consumption information for many Cisco products has not been collected and managed in a centralized manner, resulting in significant data gaps. This lack of data hinders efforts to understand and manage the environmental impact of products.
+Problem: Power information for many Cisco products has not been collected and managed in a centralized manner, resulting in significant data gaps. This lack of data hinders efforts to understand and manage the environmental impact of products.
 
-Goal: The primary objective of this project is to create a reliable model that can estimate the typical power consumption of Cisco's products. This is crucial because the electricity consumed by Cisco's products represents its largest source of greenhouse gas emissions.
+Goal: The primary objective of this project is to create a reliable model that can estimate the typical power  of Cisco's products. This is crucial because the electricity consumed by Cisco's products represents its largest source of greenhouse gas emissions.
 
 
 2. Data Acquisition & Pre-processing
@@ -41,7 +41,7 @@ Initial Data Exploration:
 
 * The raw dataset initially contained 93,449 rows and 94 columns, with various data types (int64, object, float64).
 
-* Through collaboration with Subject Matter Experts (SMEs), the number of columns was consolidated and refined to 25 (21 int64, 4 object) to focus on relevant features.
+* Through collaboration with Subject Matter Expert (SMEs), the number of columns was consolidated and refined to 25 (21 int64, 4 object) to focus on relevant features.
 
 * Rows with missing data were removed, as there was no viable method to fill these gaps, resulting in a final cleaned dataset of 41,279 rows.
 
@@ -106,7 +106,7 @@ Key Results:
 
 6. Model 3: Product Power Prediction
 
-Goal: Train a new supervised learning model to predict power consumption (in Watts) for products that currently lack this data, using the completed dataset (including classified product types and predicted weights).
+Goal: Train a new supervised learning model to predict power (in Watts) for products that currently lack this data, using the completed dataset (including classified product types and predicted weights).
 
 Target Variable: Product power in Watts.
 
