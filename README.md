@@ -16,7 +16,7 @@ This project addresses a critical lack of centralized power information for prod
 
 Key Results:
 
-* Product Classification (Model 1): A Gradient Boosting model achieved a strong 94% accuracy and F1-score, significantly outperforming a 45% dummy baseline. This ensures reliable identification of critical product types (MECH, MOD, PWR).
+* Product Classification (Model 1): A Random Forest model achieved a strong 94% accuracy and F1-score, significantly outperforming a 45% dummy baseline. This ensures reliable identification of critical product types (MECH, MOD, PWR).
 
 * Product Weight Prediction (Model 2): A Random Forest model achieved the lowest RMSE of 1.93, outperforming a dummy classifier's RMSE of 4.78 for products under 20 kg.
 
