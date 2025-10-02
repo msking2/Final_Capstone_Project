@@ -76,7 +76,7 @@ Key Results:
 
 * The model significantly outperformed the dummy baseline accuracy of 45% (where 'MOD' was the majority class).
 
-* Best Model: Gradient Boosting was selected as the most effective approach.
+* Best Model: random forest was selected as the most effective approach.
 
 * Performance: Achieved a test accuracy of approximately 94% and an F1-score of approximately 94%.
 
@@ -96,7 +96,7 @@ Key Results:
 
 * The dummy classifier produced a test RMSE of 4.78.
 
-* Best Model: Random Forest achieved the lowest RMSE of 1.93.
+* Best Model: Random Forest achieved the lowest RMSE of 1.91.
 
 * Performance: The Random Forest model significantly improved prediction accuracy compared to the baseline.
 
@@ -127,7 +127,7 @@ Summary
 | Task              | Model                    | Accuracy/Score | F1 / RMSE | Metric        |
 | ----------------- | ------------------------ | -------------- | --------- | ------------- |
 | Classification    | Dummy (majority class)   | 0.45           | 0.62      | Accuracy / F1 |
-| Classification    | Gradient Boosting (best) | 0.94           | 0.94      | Accuracy / F1 |
+| Classification    | Random Forest     (best) | 0.94           | 0.94      | Accuracy / F1 |
 | Weight Prediction | Dummy                    | –              | 4.78      | RMSE          |
 | Weight Prediction | Random Forest (best)     | –              | 1.93      | RMSE          |
 | Power Prediction  | Dummy                    | –              | 241.43    | RMSE          |
